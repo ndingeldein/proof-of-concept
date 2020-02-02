@@ -1,0 +1,89 @@
+// breakpoint sizes
+// The container horizontal gap, which acts as the offset for breakpoints
+$gap: 32px
+$phone-medium: 360px
+// larger screen phones including Google Pixel
+// https://material.io/devices/
+// google pixel is 411px
+$phone-plus: 411px
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 768px
+// 960px container + 4rem
+$desktop: 960px + (2 * $gap)
+// 1152px container + 4rem
+$widescreen: 1152px + (2 * $gap)
+// 1344px container + 4rem
+$fullhd: 1344px + (2 * $gap)
+
+// fonts
+$family-sans-serif: "Roboto", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+$family-serif: 'Georgia', serif
+$family-primary: $family-sans-serif
+$family-alt: $family-primary
+
+// color scheme
+// text
+$text: #6a6a6a
+
+$primary: #32b1ca
+$secondary: #070c1b
+$tertiary: #57897C
+
+// $light: hsl(hue($primary), saturation($primary), 95%)
+$light: #f7f7f7
+$dark: #333
+
+$primary-invert: #fff
+$secondary-invert: #fff
+$tertiary-invert: #fff
+
+$light-invert: $text
+$dark-invert: #fff
+
+// html bg
+$body-background-color: #fff
+
+//links
+$link: $primary
+$link-hover: $secondary
+$link-active: darken($link-hover, 10%)
+$link-visited: $link
+$link-focus: darken($link, 10%)
+
+$size-1: 3.5rem
+$size-2: 2.5rem
+$size-3: 2rem
+$size-4: 1.25rem
+$size-5: 1.125rem
+$size-6: 1rem
+$size-7: 0.875rem
+$size-8: 0.75rem
+
+$size-tiny: $size-8
+$size-small: $size-7
+$size-normal: $size-6
+$size-medium: $size-5
+$size-large: $size-4
+
+$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 $size-8
+
+$colors: ("light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert), "secondary": ($secondary, $secondary-invert), "tertiary": ($tertiary, $tertiary-invert), "white" : (#fff, $text))
+
+// $title-color: $text-strong !default
+// $title-family: false !default
+// $title-size: $size-3 !default
+$title-weight: 600 !default
+// $title-line-height: 1.125 !default
+// $title-strong-color: inherit !default
+// $title-strong-weight: inherit !default
+// $title-sub-size: 0.75em !default
+// $title-sup-size: 0.75em !default
+
+// $subtitle-color: $text !default
+// $subtitle-family: false !default
+// $subtitle-size: $size-5 !default
+// $subtitle-weight: $weight-normal !default
+// $subtitle-line-height: 1.25 !default
+// $subtitle-strong-color: $text-strong !default
+// $subtitle-strong-weight: $weight-semibold !default
+// $subtitle-negative-margin: -1.25rem !default
