@@ -4,7 +4,7 @@
 <section class="section">
 	<div class="container">
 		<div class="content">
-			<h2>Welcome</h2>
+			<h2>Modiphy</h2>
 			<ul>
 				@foreach ($pages as $page)
 		    		<a class="navbar-item" href="/pages/{{ $page->slug }}">
